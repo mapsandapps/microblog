@@ -1,0 +1,43 @@
+body {
+  font-family: "Share Tech Mono", "Courier New", Courier, monospace;
+  /* "Lucida Console", Monaco, monospace */
+  background-color: #EEF5EE;
+  color: #141414;
+  font-size: 20px;
+}
+
+body > div {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+article {
+  margin: 3em 0;
+}
+
+h2:before {
+  content: '# ';
+  color: #8BDE85;
+}
+
+.tag {
+  padding: 0px 0.6em;
+  border-radius: 10em;
+  background-color: #8BDE85;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* colors: */
+/* 714cdf (purple) */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #141414;
+    color: #EEF5EE;
+  }
+}
