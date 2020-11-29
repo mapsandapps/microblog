@@ -36,6 +36,7 @@ img {
 /* 714cdf (purple) */
 
 @media (prefers-color-scheme: dark) {
+  /* TODO: link colors */
   body {
     background-color: #141414;
     color: #EEF5EE;
