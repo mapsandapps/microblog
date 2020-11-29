@@ -32,13 +32,25 @@ img {
   max-width: 100%;
 }
 
-/* colors: */
-/* 714cdf (purple) */
+a {
+  color: #0E5390;
+}
+
+a:visited {
+  color: #521FE0;
+}
 
 @media (prefers-color-scheme: dark) {
-  /* TODO: link colors */
   body {
     background-color: #141414;
     color: #EEF5EE;
+  }
+
+  a {
+    color: #50A6F1;
+  }
+
+  a:visited {
+    color: #AC96EE;
   }
 }
