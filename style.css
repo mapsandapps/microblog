@@ -40,6 +40,10 @@ a:visited {
   color: #521FE0;
 }
 
+footer {
+  margin-bottom: 6em;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #141414;
