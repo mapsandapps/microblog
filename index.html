@@ -20,177 +20,36 @@
 
     <main>
       <article>
-        <h2>2020 photo book</h2>
+        <h2>Solitaire Collection v0.2.0</h2>
         <p>
-          Posted on 2020-12-23
-          <span class="tag">#photography</span>
-        </p>
-        <section>
-          <iframe
-            src="https://www.zno.com/prod-assets/app/littlebook/index.html?virtualProjectGuid=%2Bj3Kl%2F7hSPQ%3D&initGuid=%2Bj3Kl%2F7hSPQ%3D&timestamp=1608762414256&isPreview=true&languageCode=en"
-            width="800px"
-            height="461px"
-            loading="lazy">
-          </iframe>
-          <p>
-            Every year, I make a photo book covering the nature topic I learned about that year. For 2020, that's clouds ☁️.
-          </p>
-        </section>
-      </article>
-
-      <article>
-        <h2>Longboarding: first 9 days</h2>
-        <p>
-          Posted on 2020-12-22
-          <span class="tag">#longboarding</span>
-        </p>
-        <section>
-          <figure>
-            <video
-              controls="controls"
-              width="640"
-              height="360"
-              name="Longboarding"
-              src="images/2020-12-22.mov">
-            </video>
-            <figcaption>
-              Getting comfy pushing
-            </figcaption>
-          </figure>
-          <figure>
-            <img src="images/2020-12-22.png" loading="lazy" width="400">
-            <figcaption>
-              Longboarding stats
-            </figcaption>
-          </figure>
-          <p>
-            I've been longboarding 9 days now, and I've skated 8.3 miles. I'm getting more comfortable pushing and turning.
-          </p>
-        </section>
-      </article>
-
-      <article>
-        <h2>Longboarding</h2>
-        <p>
-          Posted on 2020-12-14
-          <span class="tag">#longboarding</span>
-        </p>
-        <section>
-          <figure>
-            <img src="images/2020-12-14.png" loading="lazy">
-            <figcaption>
-              First day of longboarding
-            </figcaption>
-          </figure>
-          <p>
-            I'm not sure if a new hobby was a thing I needed, given how many hobbies I already have. But a new hobby is a thing I have! Today was my first day of longboarding. I kinda mostly learned how to push, turn, and cruise today. I don't yet know how to brake or carve.
-          </p>
-          <p>
-            I wanted to try longboarding to kind of loosen up a bit, to have a reason to leave my apartment which I've spent way too much time in in 2020, and also to have an excuse to explore the city again. If I'm honest, it was also largely inspired by <a href="https://lonelymountains.com/" target="_blank">Lonely Mountains: Downhill</a> and hoping to experience the same sort of "flow" feeling that you get with a good run in that game. I haven't gotten nearly enough exercise or fresh air in 2020, so this should be a nice change.
-          </p>
-        </section>
-      </article>
-
-      <article>
-        <h2>Sandwiches prototype now available!</h2>
-        <p>
-          Posted on 2020-12-12
+          Posted on 2021-01-01
           <span class="tag">#gamedev</span>
         </p>
         <section>
           <figure>
-            <img src="images/2020-12-12.png" loading="lazy" width="269">
+            <img src="images/2021-01-01.png" loading="lazy">
             <figcaption>
-              Sandwiches gameplay
+              New deck
             </figcaption>
           </figure>
           <p>
-            Sandwiches is now available to play on <a href="https://mapsandapps.itch.io/sandwiches" target="_blank">itch.io</a>. I added rules and a tutorial. More levels and other features coming soon.
-          </p>
-        </section>
-      </article>
-
-      <article>
-        <h2>Puzzle game pencil marks</h2>
-        <p>
-          Posted on 2020-12-10
-          <span class="tag">#gamedev</span>
-        </p>
-        <section>
-          <figure>
-            <video
-              controls="controls"
-              width="237"
-              height="398"
-              name="Pencil marks"
-              src="images/pencilmarks.mov"></video>
-            <figcaption>
-              Inking & penciling
-            </figcaption>
-          </figure>
-          <p>
-            I just built out the pencil marks for the number puzzle game I've been working on. It turned out to be easier than I thought, because I don't think the game state needs to know what numbers are penciled.
-          </p>
-        </section>
-      </article>
-
-      <article>
-        <h2>Puzzle game</h2>
-        <p>
-          Posted on 2020-12-05
-          <span class="tag">#gamedev</span>
-        </p>
-        <section>
-          <pre>
-{
-  "colSums":[6,0,3,0,3],
-  "rowSums":[6,0,5,0,5],
-  "grid":[
-    [5,2,1,3,4],
-    [2,5,4,1,3],
-    [1,4,3,2,5],
-    [3,1,5,4,2],
-    [4,3,2,5,1]
-  ],
-  "size":5,
-  "colSumsFixed":[false,true,false,false,true],
-  "rowSumsFixed":[true,false,true,false,false],
-  "gridFixed":[
-    [false,false,true,false,false],
-    [true,true,true,false,false],
-    [false,false,false,false,false],
-    [false,false,false,false,false],
-    [false,false,true,false,false]
-  ],
-  "difficulty":0.7,
-  "difficultyVersion":0.1
-}
-          </pre>
-          <p>
-            I've also been working on a number-based logic puzzle game. I've previously generated some levels by hand, but today was the first day I generated one fully via code!
+            Updates:
+            <ul>
+              <li>New deck</li>
+              <li>Allow players to select which deck to use</li>
+              <li>Store deck selection in localstorage</li>
+            </ul>
           </p>
           <p>
-            The puzzles the code generates are not necessarily solvable or unique (which are both requirements), but I may not bother with that or with writing a solver. Instead, I may just verify &mdash; and sometimes tweak &mdash; the puzzles by hand.
+            Bugfixes:
+            <ul>
+              <li>Fixed a whole class of bugs dealing with touch controls</li>
+              <li>Fixed a bug where menu bar items were getting triggered while cards were being dragged</li>
+              <li>Fixed a UX bug where there was no way to tell which menu bar items would exit the game vs staying in the game</li>
+            </ul>
           </p>
-        </section>
-      </article>
-
-      <article>
-        <h2>Rules</h2>
-        <p>
-          Posted on 2020-12-02
-          <span class="tag">#gamedev</span>
-        </p>
-        <section>
-          <figure>
-            <img src="images/2020-12-02.png" loading="lazy">
-            <img src="images/2020-12-02-b.png" loading="lazy">
-            <figcaption>
-              Rules for Napoleon's Square solitaire
-            </figcaption>
-          </figure>
           <p>
-            Today, I built out the rules text. The text is actually generated directly from the rules as set for each solitaire variant.
+            Play it on <a href="https://mapsandapps.itch.io/solitaire-collection">itch.io</a>
           </p>
         </section>
       </article>
@@ -200,6 +59,7 @@
       <hr />
 
       <h1>Archive</h1>
+      <p><a href="2020-12.html">December 2020</a></p>
       <p><a href="2020-11.html">November 2020</a></p>
     </footer>
   </div>
